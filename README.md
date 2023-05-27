@@ -54,4 +54,4 @@ title="xxx" && after="2022-1-10"
 
 关键词搜的好，cnvd证书也不在话下
 最近建了一个交流群，旨在提供一个师傅们可以交流的平台，加群有门槛（CNVD、众测等要求），感兴趣的可以加我的微信
-https://github.com/some-new-codes/picture/blob/main/dcb52d541c99d80864f2543b4d89871.jpg
+https://raw.githubusercontent.com/some-new-codes/picture/main/dcb52d541c99d80864f2543b4d89871.jpg
