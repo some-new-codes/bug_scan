@@ -4,6 +4,27 @@
 这是一个结合fofa和nuclei的批量漏洞扫描脚本，能够根据给出的关键词进行批量化扫描
 
 
+## 使用说明
+
+我把文件放在我的github项目文档内了：
+把scan文件放到/root下即可，放好之后scan的目录是/root/scan
+
+#### 环境配置
+
+###### python3 ：
+
+这个自行安装，我用的python3.8和3.11都能运行，其他应该也没啥问题
+
+###### nuclei：
+
+去官方下载nuclei，这里我只讲单文件版本配置方式，github的nuclei官方项目：[nuclei](https://github.com/projectdiscovery/nuclei)
+进入release，选择适合自己的版本，这里我用的是amd64的，解压出来然后使用chmod u+x nuclei给予执行权限，然后mv nculei 环境变量目录，就可以直接使用了
+![image.png](https://image.3001.net/images/20230527/1685165496_647195b85b31c3b3ee0a4.png!small)
+
+###### 然后是fofamap的环境配置
+
+我会放在requirements.txt内，大家下载好后进入requirements所在目录内执行命令即可安装依赖：
+pip3 install -r requirements.txt
 #### 使用步骤
 
 ###### 给予bug\_scan.sh执行权限
