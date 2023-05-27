@@ -3,6 +3,7 @@
 #### 项目介绍
 这是一个结合fofa和nuclei的批量漏洞扫描脚本，能够根据给出的关键词进行批量化扫描，
 适合放在linux服务器上，24小时自动扫描
+
 其中fofa查询部分调用了fofamap的项目：https://github.com/asaotomo/FofaMap
 
 ## 使用说明
