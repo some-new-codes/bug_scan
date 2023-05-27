@@ -6,8 +6,7 @@
 
 ## 使用说明
 
-我把文件放在我的github项目文档内了：
-把scan文件放到/root下即可，放好之后scan的目录是/root/scan
+把scan文件放到/root下，放好之后scan的目录是/root/scan
 
 #### 环境配置
 
