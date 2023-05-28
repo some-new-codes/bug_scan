@@ -35,7 +35,7 @@ scan文件下载好放到/root文件下，进入/root/scan文件内，给予执�
 ###### keyword.txt（搜索关键词文件）放到/root目录下
 
 keyword内容为我们要搜索的语句的内容
-keyword.txt内容格式为,与fofa查询语句格式一致：
+keyword.txt内容格式与fofa查询语句格式一致：
 
 ```
 title="xxx" && after="2022-1-6"
