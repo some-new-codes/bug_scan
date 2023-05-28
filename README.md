@@ -4,7 +4,7 @@
 这是一个结合fofa和nuclei的批量漏洞扫描脚本，能够根据给出的关键词进行批量化扫描，
 适合放在linux服务器上，24小时自动扫描
 
-其中fofa查询部分调用了fofamap的项目：https://github.com/asaotomo/FofaMap
+其中fofa查询部分调用了fofamap的项目,修改了部分代码：https://github.com/asaotomo/FofaMap
 
 ## 使用说明
 
@@ -49,7 +49,7 @@ title="xxx" && after="2022-1-10"
 ###### 最后一步
 
 执行/root/scan/bug.scan.sh文件，就会开始循环keyword.txt内搜索关键词进行扫描，最后输出结果放在/root/scan\_result内，cat /root/scan\_result即可
-
+一开始scan_result是没东西的，要扫描出来才有，还有如果是服务器建议用screen跑，这样断开会话还能继续扫
 
 ## 题外话
 有啥问题欢迎各位提出，第一次用github上传，请大佬们多多担待
