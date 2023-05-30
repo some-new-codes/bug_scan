@@ -24,8 +24,9 @@ star超过100更新权重版本
 进入release，选择适合自己的版本，这里我用的是amd64的，解压出来然后使用chmod u+x nuclei给予执行权限，然后mv nculei 环境变量目录，就可以直接使用了
 ![image.png](https://image.3001.net/images/20230527/1685165496_647195b85b31c3b3ee0a4.png!small)
 
+不想用默认poc的看这里：
 这里推荐两个nuclei 的poc项目：https://github.com/projectdiscovery/nuclei-templates、https://github.com/ExpLangcn/NucleiTP
-把其中low和info去掉，然后去掉xss等国内不怎么收的洞就可以了
+把其中low和info去掉，然后去掉xss等国内不怎么收的洞就可以了，最后修改bug_scan.sh内nuclei语句添加-t /xxx/xxx/template指定template（也就是poc文件夹）
 
 ###### 然后是fofamap的环境配置
 
