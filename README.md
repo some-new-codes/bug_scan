@@ -1,5 +1,5 @@
 # bug_scan
-fofa联动nuclei实现批量漏扫（需要fofa会员）
+fofa联动nuclei实现批量漏扫（需要fofa会员），目前只有linux版本
 
 star超过100更新权重版本
 #### 项目介绍
