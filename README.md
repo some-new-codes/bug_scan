@@ -53,7 +53,7 @@ title="xxx" && after="2022-1-10"
 
 ###### 最后一步
 
-执行/root/scan/bug.scan.sh文件，就会开始循环keyword.txt内搜索关键词进行扫描，最后输出结果放在/root/scan\_result内，cat /root/scan\_result即可
+执行/root/scan/bug.scan.sh文件，就会开始遍历keyword.txt内搜索关键词进行扫描，最后输出结果放在/root/scan\_result内，cat /root/scan\_result即可
 一开始scan_result是没东西的，要扫描出来才有，还有如果是服务器建议用screen跑，这样断开会话还能继续扫
 
 ## 声明
