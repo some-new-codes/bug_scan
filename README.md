@@ -16,7 +16,7 @@ fofa联动nuclei实现批量漏扫（需要fofa会员），目前只有linux版�
 ###### python3 ：
 
 这个自行安装，我用的python3.8和3.11都能运行，其他应该也没啥问题
-
+我的bug_scan.sh脚本里面调用python时候用的是python3 xxxx，调用方式不同的可以改bug_scan.sh里面所有python3字眼
 ###### nuclei：
 
 去官方下载nuclei，这里我只讲单文件版本配置方式，github的nuclei官方项目：[nuclei](https://github.com/projectdiscovery/nuclei)
