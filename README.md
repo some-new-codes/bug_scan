@@ -20,7 +20,7 @@ fofa联动nuclei实现批量漏扫（需要fofa会员），目前只有linux版�
 ###### nuclei：
 
 去官方下载nuclei，这里我只讲单文件版本配置方式，github的nuclei官方项目：[nuclei](https://github.com/projectdiscovery/nuclei)
-进入release，选择适合自己的版本，这里我用的是amd64的，解压出来然后使用chmod u+x nuclei给予执行权限，然后mv nculei 环境变量目录，就可以直接使用了
+进入release，选择适合自己的版本，这里我用的是amd64的，解压出来然后使用chmod u+x nuclei给予执行权限，然后mv nculei 环境变量目录(放入环境变量就可以在任意目录执行该程序），就可以直接使用了
 ![image.png](https://image.3001.net/images/20230527/1685165496_647195b85b31c3b3ee0a4.png!small)
 
 不想用默认poc的看这里：
