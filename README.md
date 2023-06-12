@@ -41,7 +41,7 @@ scan文件下载好放到/root文件下，进入/root/scan文件内，给予执�
 
 keyword内容为我们要搜索的语句的内容
 keyword.txt内容格式与fofa查询语句格式一致
-例子如下：
+例子如下，每行一条搜索语句，跑完一条跑下一条：
 ```
 title="xxx" && after="2022-1-6"
 title="xxx" && after="2022-1-10"
